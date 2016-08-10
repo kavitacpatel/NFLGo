@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>953815850464-32da3s8fs38rl47873eqrpgl91iqd7bq.apps.googleusercontent.com</string>
+	<string>726127523868-pllbcge2319hhn9onnuc22g03icn4itn.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.953815850464-32da3s8fs38rl47873eqrpgl91iqd7bq</string>
+	<string>com.googleusercontent.apps.726127523868-pllbcge2319hhn9onnuc22g03icn4itn</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCx5KxMnHmOnlAQkqF9rbCKkM6VXXjRXfM</string>
+	<string>AIzaSyDYSOOM_8lb96H1tf1wTdw5Zg6HyIBVYtU</string>
 	<key>GCM_SENDER_ID</key>
-	<string>953815850464</string>
+	<string>726127523868</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>Darsh.NFLGo</string>
 	<key>PROJECT_ID</key>
-	<string>firebase-nflgo</string>
+	<string>nflgo-ee282</string>
 	<key>STORAGE_BUCKET</key>
-	<string>firebase-nflgo.appspot.com</string>
+	<string>nflgo-ee282.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:953815850464:ios:5b20f3f76ee6cce1</string>
+	<string>1:726127523868:ios:5b20f3f76ee6cce1</string>
 	<key>DATABASE_URL</key>
-	<string>https://nflgo.firebaseio.com</string>
+	<string>https://nflgo-ee282.firebaseio.com</string>
 </dict>
 </plist>
