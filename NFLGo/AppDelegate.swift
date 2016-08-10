@@ -8,11 +8,15 @@
 
 import UIKit
 import CoreData
-import Firebase
 import FBSDKCoreKit
+import FBSDKLoginKit
+import Fabric
+import TwitterKit
+import GoogleSignIn
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInUIDelegate
+{
 
     var window: UIWindow?
 
@@ -20,15 +24,56 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         FIRApp.configure()
-        FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
-        return true
+        Fabric.with([Twitter.self])
+        GIDSignIn.sharedInstance().uiDelegate = self
+        GIDSignIn.sharedInstance().clientID = FIRApp.defaultApp()?.options.clientID
+        
+        return true || FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
     }
+    func application(_ application: UIApplication,
+                     open url: URL, options: [String: AnyObject]) -> Bool
+    {
+    
+        return FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: options) || GIDSignIn.sharedInstance().handle(url as URL!, sourceApplication: options[UIApplicationOpenURLOptionsSourceApplicationKey] as! String, annotation: options[UIApplicationOpenURLOptionsAnnotationKey])
+    }
+/*
+     deprecated for google and facebook
     func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: AnyObject) -> Bool {
-        var handled: Bool
-        handled = FBSDKApplicationDelegate.sharedInstance().application(application, open: url, sourceApplication: sourceApplication, annotation: annotation)
-        return handled
+        let googleDidHandle = GIDSignIn.sharedInstance().handle(url,
+                                                                   sourceApplication: sourceApplication,
+                                                                   annotation: annotation)
+        
+        let facebookDidHandle = FBSDKApplicationDelegate.sharedInstance().application(
+            application,
+            open: url,
+            sourceApplication: sourceApplication,
+            annotation: annotation)
+        print(facebookDidHandle)
+        return googleDidHandle || facebookDidHandle
+    }
+   */
+    func signIn(signIn: GIDSignIn!, didSignInForUser user: GIDGoogleUser!,
+                withError error: NSError!)
+    {
+        if let error = error
+        {
+            print(error.localizedDescription)
+            return
+        }
+       else
+        {
+            print(user.userID)
+           
+           // let fullName = user.profile.name
+            //let email = user.profile.email
+        }
     }
     
+    func signIn(signIn: GIDSignIn!, didDisconnectWithUser user:GIDGoogleUser!,
+                withError error: NSError!) {
+        // Perform any operations when the user disconnects from app here.
+        // ...
+    }
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.

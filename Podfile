@@ -2,13 +2,21 @@
 platform :ios, ‘10.0’
 # Uncomment this line if you're using Swift
 use_frameworks!
-source 'https://github.com/CocoaPods/Specs'
+source 'https://github.com/CocoaPods/Specs.git'
 
 target 'NFLGo' do
-    pod 'Firebase', '>= 2.5.1'
+    pod 'Firebase'
     pod 'Firebase/Database'
+    pod 'Firebase/Core'
     pod 'Firebase/Auth'
-    
+    pod 'Fabric'
+    pod 'TwitterKit'
+    pod 'Google'
+    pod 'Google/SignIn'
+    pod 'Bolts'
+    pod 'FBSDKCoreKit'
+    pod 'FBSDKLoginKit'
+    pod 'FBSDKShareKit'
 end
 
 target 'NFLGoTests' do

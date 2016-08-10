@@ -7,10 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6B3358961D466451000DC62A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B3358951D466451000DC62A /* GoogleService-Info.plist */; };
-		6B4690761D495A2600927FD4 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B4690731D495A2600927FD4 /* FBSDKCoreKit.framework */; };
-		6B4690771D495A2600927FD4 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B4690741D495A2600927FD4 /* FBSDKLoginKit.framework */; };
-		6B4690781D495A2600927FD4 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B4690751D495A2600927FD4 /* FBSDKShareKit.framework */; };
+		5A081FAF80D92A4E19C649DA /* Pods_NFLGoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C2F1D3F0CF70A57CF3E754 /* Pods_NFLGoUITests.framework */; };
+		68617D93D37665A266E53FCA /* Pods_NFLGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B196A6452D4650541FC9D78 /* Pods_NFLGo.framework */; };
+		6B1860C41D56331E009463E5 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B1860C31D56331E009463E5 /* GoogleSignIn.framework */; };
+		6B1860C61D56335D009463E5 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6B1860C51D56335D009463E5 /* GoogleSignIn.bundle */; };
+		6B18750D1D4FEBCB0063098C /* FBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B18750C1D4FEBCB0063098C /* FBViewController.swift */; };
+		6B29D7DB1D579358002664E6 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B29D7DA1D579357002664E6 /* SafariServices.framework */; };
+		6B2A56971D4B08EA00111A1C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A56961D4B08EA00111A1C /* DetailViewController.swift */; };
+		6B3C22DA1D57831F00A011C9 /* client_726127523868-pllbcge2319hhn9onnuc22g03icn4itn.apps.googleusercontent.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B3C22D91D57831F00A011C9 /* client_726127523868-pllbcge2319hhn9onnuc22g03icn4itn.apps.googleusercontent.com.plist */; };
+		6B5DA28D1D5566CB00CF3A40 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B5DA28C1D5566CB00CF3A40 /* GoogleService-Info.plist */; };
 		6B732A7E1D42AA6D00817AC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B732A7D1D42AA6D00817AC9 /* AppDelegate.swift */; };
 		6B732A801D42AA6D00817AC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B732A7F1D42AA6D00817AC9 /* ViewController.swift */; };
 		6B732A831D42AA6D00817AC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B732A811D42AA6D00817AC9 /* Main.storyboard */; };
@@ -24,7 +29,8 @@
 		6B732AB51D42AF8700817AC9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B732AB41D42AF8700817AC9 /* CFNetwork.framework */; };
 		6B732AB71D42AF9000817AC9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B732AB61D42AF9000817AC9 /* Security.framework */; };
 		6B732AB91D42AF9600817AC9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B732AB81D42AF9600817AC9 /* SystemConfiguration.framework */; };
-		C2193051CF98774E392F653E /* Pods_NFLGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D3E32FCD8A2338AA7DF5FF9 /* Pods_NFLGo.framework */; };
+		6BF96E011D4AE89300A462F1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF96E001D4AE89300A462F1 /* Default-568h@2x.png */; };
+		FF56E2BBBFF497D603A88D5A /* Pods_NFLGoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 802AD22593CB40C1972D3A5E /* Pods_NFLGoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,13 +50,35 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6BE4A1C41D4D09EA00E4EFF2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		3D3E32FCD8A2338AA7DF5FF9 /* Pods_NFLGo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFLGo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B196A6452D4650541FC9D78 /* Pods_NFLGo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFLGo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C9BE22E819C87478247FAF /* Pods-NFLGoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFLGoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NFLGoTests/Pods-NFLGoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B1860C31D56331E009463E5 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
+		6B1860C51D56335D009463E5 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
+		6B1860C71D5633D6009463E5 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
+		6B18750C1D4FEBCB0063098C /* FBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBViewController.swift; sourceTree = "<group>"; };
+		6B1B74AB1D4C20D300CCEC01 /* NFLGo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NFLGo.entitlements; sourceTree = "<group>"; };
+		6B1B74AC1D4CF6DA00CCEC01 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6B29D7DA1D579357002664E6 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		6B2A56931D4B031600111A1C /* NFLGo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NFLGo-Bridging-Header.h"; sourceTree = "<group>"; };
+		6B2A56961D4B08EA00111A1C /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = ../DetailViewController.swift; sourceTree = "<group>"; };
 		6B33588B1D465CE0000DC62A /* libtidy.A.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libtidy.A.tbd; path = usr/lib/libtidy.A.tbd; sourceTree = SDKROOT; };
-		6B3358951D466451000DC62A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		6B4690731D495A2600927FD4 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		6B4690741D495A2600927FD4 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		6B4690751D495A2600927FD4 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		6B3C22D91D57831F00A011C9 /* client_726127523868-pllbcge2319hhn9onnuc22g03icn4itn.apps.googleusercontent.com.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "client_726127523868-pllbcge2319hhn9onnuc22g03icn4itn.apps.googleusercontent.com.plist"; sourceTree = "<group>"; };
+		6B5DA28C1D5566CB00CF3A40 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6B5DA2961D5585D200CF3A40 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../Library/Developer/Xcode/DerivedData/NFLGo-efilxedpshyncrcctjrwppgxskfa/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework"; sourceTree = "<group>"; };
+		6B5DA2981D55868C00CF3A40 /* hello.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hello.m; sourceTree = "<group>"; };
 		6B732A7A1D42AA6D00817AC9 /* NFLGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFLGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B732A7D1D42AA6D00817AC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B732A7F1D42AA6D00817AC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,8 +98,14 @@
 		6B732AB41D42AF8700817AC9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		6B732AB61D42AF9000817AC9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		6B732AB81D42AF9600817AC9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		C03D73F68A7802B1DA3D387D /* Pods-NFLGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFLGo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NFLGo/Pods-NFLGo.release.xcconfig"; sourceTree = "<group>"; };
-		CD435B24D693FC7FA16CF96F /* Pods-NFLGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFLGo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NFLGo/Pods-NFLGo.debug.xcconfig"; sourceTree = "<group>"; };
+		6BF96E001D4AE89300A462F1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		75C2F1D3F0CF70A57CF3E754 /* Pods_NFLGoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFLGoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		802AD22593CB40C1972D3A5E /* Pods_NFLGoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFLGoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88D6F59741164F47E06F1707 /* Pods-NFLGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFLGo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NFLGo/Pods-NFLGo.debug.xcconfig"; sourceTree = "<group>"; };
+		8D59B450DB96039C4B9BA979 /* Pods-NFLGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFLGo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NFLGo/Pods-NFLGo.release.xcconfig"; sourceTree = "<group>"; };
+		A3D1E5B102E3EEFE2FEA52C5 /* Pods-NFLGoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFLGoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NFLGoUITests/Pods-NFLGoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B015DDDEC9B3D7A63F7C0441 /* Pods-NFLGoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFLGoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NFLGoTests/Pods-NFLGoTests.release.xcconfig"; sourceTree = "<group>"; };
+		E9C84C3B52D2B51595F556F5 /* Pods-NFLGoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFLGoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NFLGoUITests/Pods-NFLGoUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,15 +113,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B29D7DB1D579358002664E6 /* SafariServices.framework in Frameworks */,
 				6B732AB91D42AF9600817AC9 /* SystemConfiguration.framework in Frameworks */,
 				6B732AB71D42AF9000817AC9 /* Security.framework in Frameworks */,
 				6B732AB51D42AF8700817AC9 /* CFNetwork.framework in Frameworks */,
 				6B732AB31D42AF8000817AC9 /* libicucore.tbd in Frameworks */,
-				6B4690761D495A2600927FD4 /* FBSDKCoreKit.framework in Frameworks */,
-				6B4690781D495A2600927FD4 /* FBSDKShareKit.framework in Frameworks */,
+				6B1860C41D56331E009463E5 /* GoogleSignIn.framework in Frameworks */,
 				6B732AB11D42AF7700817AC9 /* libc++.tbd in Frameworks */,
-				6B4690771D495A2600927FD4 /* FBSDKLoginKit.framework in Frameworks */,
-				C2193051CF98774E392F653E /* Pods_NFLGo.framework in Frameworks */,
+				68617D93D37665A266E53FCA /* Pods_NFLGo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF56E2BBBFF497D603A88D5A /* Pods_NFLGoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,30 +136,65 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A081FAF80D92A4E19C649DA /* Pods_NFLGoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6B2BB8D91D490E4900327681 /* Pods */ = {
+		183F8A2477942379F79B46BA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CD435B24D693FC7FA16CF96F /* Pods-NFLGo.debug.xcconfig */,
-				C03D73F68A7802B1DA3D387D /* Pods-NFLGo.release.xcconfig */,
+				88D6F59741164F47E06F1707 /* Pods-NFLGo.debug.xcconfig */,
+				8D59B450DB96039C4B9BA979 /* Pods-NFLGo.release.xcconfig */,
+				36C9BE22E819C87478247FAF /* Pods-NFLGoTests.debug.xcconfig */,
+				B015DDDEC9B3D7A63F7C0441 /* Pods-NFLGoTests.release.xcconfig */,
+				A3D1E5B102E3EEFE2FEA52C5 /* Pods-NFLGoUITests.debug.xcconfig */,
+				E9C84C3B52D2B51595F556F5 /* Pods-NFLGoUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		6B2A56981D4B090A00111A1C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B732A871D42AA6D00817AC9 /* Assets.xcassets */,
+				6B732A841D42AA6D00817AC9 /* NFLGo.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6B2A56991D4B091A00111A1C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B2A56961D4B08EA00111A1C /* DetailViewController.swift */,
+				6B732A7F1D42AA6D00817AC9 /* ViewController.swift */,
+				6B18750C1D4FEBCB0063098C /* FBViewController.swift */,
+				6B732A811D42AA6D00817AC9 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6B2A569A1D4B092000111A1C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		6B732A711D42AA6D00817AC9 = {
 			isa = PBXGroup;
 			children = (
-				6B2BB8D91D490E4900327681 /* Pods */,
+				6B1860C71D5633D6009463E5 /* GoogleSignIn.bundle */,
+				6BF96E001D4AE89300A462F1 /* Default-568h@2x.png */,
 				6B732A7C1D42AA6D00817AC9 /* NFLGo */,
 				6B732A941D42AA6D00817AC9 /* NFLGoTests */,
 				6B732A9F1D42AA6D00817AC9 /* NFLGoUITests */,
 				6B732A7B1D42AA6D00817AC9 /* Products */,
 				BE0AA485E3BF005288B7917A /* Frameworks */,
+				6B2A56931D4B031600111A1C /* NFLGo-Bridging-Header.h */,
+				183F8A2477942379F79B46BA /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,14 +211,15 @@
 		6B732A7C1D42AA6D00817AC9 /* NFLGo */ = {
 			isa = PBXGroup;
 			children = (
+				6B1B74AB1D4C20D300CCEC01 /* NFLGo.entitlements */,
+				6B2A569A1D4B092000111A1C /* Controller */,
+				6B2A56991D4B091A00111A1C /* View */,
+				6B2A56981D4B090A00111A1C /* Model */,
 				6B732A7D1D42AA6D00817AC9 /* AppDelegate.swift */,
-				6B732A7F1D42AA6D00817AC9 /* ViewController.swift */,
-				6B732A811D42AA6D00817AC9 /* Main.storyboard */,
-				6B732A871D42AA6D00817AC9 /* Assets.xcassets */,
 				6B732A891D42AA6D00817AC9 /* LaunchScreen.storyboard */,
+				6B3C22D91D57831F00A011C9 /* client_726127523868-pllbcge2319hhn9onnuc22g03icn4itn.apps.googleusercontent.com.plist */,
+				6B5DA28C1D5566CB00CF3A40 /* GoogleService-Info.plist */,
 				6B732A8C1D42AA6D00817AC9 /* Info.plist */,
-				6B3358951D466451000DC62A /* GoogleService-Info.plist */,
-				6B732A841D42AA6D00817AC9 /* NFLGo.xcdatamodeld */,
 			);
 			path = NFLGo;
 			sourceTree = "<group>";
@@ -175,16 +245,21 @@
 		BE0AA485E3BF005288B7917A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6B4690731D495A2600927FD4 /* FBSDKCoreKit.framework */,
-				6B4690741D495A2600927FD4 /* FBSDKLoginKit.framework */,
-				6B4690751D495A2600927FD4 /* FBSDKShareKit.framework */,
+				6B29D7DA1D579357002664E6 /* SafariServices.framework */,
+				6B5DA2981D55868C00CF3A40 /* hello.m */,
+				6B1860C51D56335D009463E5 /* GoogleSignIn.bundle */,
+				6B1860C31D56331E009463E5 /* GoogleSignIn.framework */,
+				6B5DA2961D5585D200CF3A40 /* Bolts.framework */,
+				6B1B74AC1D4CF6DA00CCEC01 /* CoreData.framework */,
 				6B33588B1D465CE0000DC62A /* libtidy.A.tbd */,
 				6B732AB81D42AF9600817AC9 /* SystemConfiguration.framework */,
 				6B732AB61D42AF9000817AC9 /* Security.framework */,
 				6B732AB41D42AF8700817AC9 /* CFNetwork.framework */,
 				6B732AB21D42AF8000817AC9 /* libicucore.tbd */,
 				6B732AB01D42AF7700817AC9 /* libc++.tbd */,
-				3D3E32FCD8A2338AA7DF5FF9 /* Pods_NFLGo.framework */,
+				1B196A6452D4650541FC9D78 /* Pods_NFLGo.framework */,
+				802AD22593CB40C1972D3A5E /* Pods_NFLGoTests.framework */,
+				75C2F1D3F0CF70A57CF3E754 /* Pods_NFLGoUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -196,12 +271,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B732AA51D42AA6D00817AC9 /* Build configuration list for PBXNativeTarget "NFLGo" */;
 			buildPhases = (
-				92E47519E213B6B08C86D90C /* Check Pods Manifest.lock */,
+				1C22EA921FCF74D7F86670AF /* [CP] Check Pods Manifest.lock */,
 				6B732A761D42AA6D00817AC9 /* Sources */,
 				6B732A771D42AA6D00817AC9 /* Frameworks */,
 				6B732A781D42AA6D00817AC9 /* Resources */,
-				B86E52D29B9D19D26017FEFF /* Embed Pods Frameworks */,
-				92E7B26307045DD5D4DC0702 /* Copy Pods Resources */,
+				6BF96DFF1D4AE67500A462F1 /* ShellScript */,
+				6BE4A1C41D4D09EA00E4EFF2 /* CopyFiles */,
+				329337F301819C075E54CDCE /* [CP] Embed Pods Frameworks */,
+				440AC5BD88A4CF5AFB00ED42 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -216,9 +293,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B732AA81D42AA6D00817AC9 /* Build configuration list for PBXNativeTarget "NFLGoTests" */;
 			buildPhases = (
+				D27BBF0BA749F6F4C2B0B5B6 /* [CP] Check Pods Manifest.lock */,
 				6B732A8D1D42AA6D00817AC9 /* Sources */,
 				6B732A8E1D42AA6D00817AC9 /* Frameworks */,
 				6B732A8F1D42AA6D00817AC9 /* Resources */,
+				24D70ED3E462808271FFA325 /* [CP] Embed Pods Frameworks */,
+				2FA59A4B364AC82873F72515 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,9 +314,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B732AAB1D42AA6D00817AC9 /* Build configuration list for PBXNativeTarget "NFLGoUITests" */;
 			buildPhases = (
+				F3E5CDC00DB9CDFAA74ABFD6 /* [CP] Check Pods Manifest.lock */,
 				6B732A981D42AA6D00817AC9 /* Sources */,
 				6B732A991D42AA6D00817AC9 /* Frameworks */,
 				6B732A9A1D42AA6D00817AC9 /* Resources */,
+				AFE4B9A543492D443002509E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,9 +342,15 @@
 				TargetAttributes = {
 					6B732A791D42AA6D00817AC9 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = R2U6P9ZT8A;
-						DevelopmentTeamName = "Kavita patel (Personal Team)";
+						DevelopmentTeam = NB68MVWQDC;
+						DevelopmentTeamName = "Kavita patel";
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					6B732A901D42AA6D00817AC9 = {
 						CreatedOnToolsVersion = 8.0;
@@ -273,8 +361,6 @@
 					};
 					6B732A9B1D42AA6D00817AC9 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = NB68MVWQDC;
-						DevelopmentTeamName = "Kavita patel";
 						ProvisioningStyle = Automatic;
 						TestTargetID = 6B732A791D42AA6D00817AC9;
 					};
@@ -305,10 +391,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B1860C61D56335D009463E5 /* GoogleSignIn.bundle in Resources */,
 				6B732A8B1D42AA6D00817AC9 /* LaunchScreen.storyboard in Resources */,
-				6B3358961D466451000DC62A /* GoogleService-Info.plist in Resources */,
 				6B732A881D42AA6D00817AC9 /* Assets.xcassets in Resources */,
+				6B5DA28D1D5566CB00CF3A40 /* GoogleService-Info.plist in Resources */,
+				6BF96E011D4AE89300A462F1 /* Default-568h@2x.png in Resources */,
 				6B732A831D42AA6D00817AC9 /* Main.storyboard in Resources */,
+				6B3C22DA1D57831F00A011C9 /* client_726127523868-pllbcge2319hhn9onnuc22g03icn4itn.apps.googleusercontent.com.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,14 +418,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		92E47519E213B6B08C86D90C /* Check Pods Manifest.lock */ = {
+		1C22EA921FCF74D7F86670AF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,14 +433,59 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		92E7B26307045DD5D4DC0702 /* Copy Pods Resources */ = {
+		24D70ED3E462808271FFA325 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NFLGoTests/Pods-NFLGoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FA59A4B364AC82873F72515 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NFLGoTests/Pods-NFLGoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		329337F301819C075E54CDCE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NFLGo/Pods-NFLGo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		440AC5BD88A4CF5AFB00ED42 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,19 +493,62 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NFLGo/Pods-NFLGo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B86E52D29B9D19D26017FEFF /* Embed Pods Frameworks */ = {
+		6BF96DFF1D4AE67500A462F1 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NFLGo/Pods-NFLGo-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" f279aa28d7485e4b092b2bbfd85b3a3695f749f8 744c39958ac571da1bc07dd835a96544ebc727fe072a156d9644cadaad3b1983";
+		};
+		AFE4B9A543492D443002509E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NFLGoUITests/Pods-NFLGoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D27BBF0BA749F6F4C2B0B5B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F3E5CDC00DB9CDFAA74ABFD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -383,7 +560,9 @@
 			files = (
 				6B732A861D42AA6D00817AC9 /* NFLGo.xcdatamodeld in Sources */,
 				6B732A801D42AA6D00817AC9 /* ViewController.swift in Sources */,
+				6B18750D1D4FEBCB0063098C /* FBViewController.swift in Sources */,
 				6B732A7E1D42AA6D00817AC9 /* AppDelegate.swift in Sources */,
+				6B2A56971D4B08EA00111A1C /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,10 +708,15 @@
 		};
 		6B732AA61D42AA6D00817AC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD435B24D693FC7FA16CF96F /* Pods-NFLGo.debug.xcconfig */;
+			baseConfigurationReference = 88D6F59741164F47E06F1707 /* Pods-NFLGo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = NFLGo/NFLGo.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				ENABLE_ON_DEMAND_RESOURCES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/NFLGo",
@@ -542,21 +726,30 @@
 				INFOPLIST_FILE = NFLGo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = Darsh.NFLGo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "NFLGo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
 		6B732AA71D42AA6D00817AC9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C03D73F68A7802B1DA3D387D /* Pods-NFLGo.release.xcconfig */;
+			baseConfigurationReference = 8D59B450DB96039C4B9BA979 /* Pods-NFLGo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = NFLGo/NFLGo.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				ENABLE_ON_DEMAND_RESOURCES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/NFLGo",
@@ -566,17 +759,21 @@
 				INFOPLIST_FILE = NFLGo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = Darsh.NFLGo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "NFLGo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
 		6B732AA91D42AA6D00817AC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36C9BE22E819C87478247FAF /* Pods-NFLGoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = NFLGoTests/Info.plist;
@@ -590,6 +787,7 @@
 		};
 		6B732AAA1D42AA6D00817AC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B015DDDEC9B3D7A63F7C0441 /* Pods-NFLGoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = NFLGoTests/Info.plist;
@@ -603,11 +801,13 @@
 		};
 		6B732AAC1D42AA6D00817AC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3D1E5B102E3EEFE2FEA52C5 /* Pods-NFLGoUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = NFLGoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Darsh.NFLGoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = NFLGo;
 			};
@@ -615,11 +815,13 @@
 		};
 		6B732AAD1D42AA6D00817AC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9C84C3B52D2B51595F556F5 /* Pods-NFLGoUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = NFLGoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Darsh.NFLGoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = NFLGo;
 			};

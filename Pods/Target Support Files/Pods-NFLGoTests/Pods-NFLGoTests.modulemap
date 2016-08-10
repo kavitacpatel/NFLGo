@@ -1,0 +1,6 @@
+framework module Pods_NFLGoTests {
+  umbrella header "Pods-NFLGoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
